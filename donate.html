@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to War Relief for Children</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <a href="index.html" class="logo">Warriors of Hope</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="stories.html">Children's Stories</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Donation Section -->
+    <section class="donate">
+        <h1>Make a Difference - Donate Today</h1>
+        <p>Your donation directly contributes to providing medical care, education, shelter, and psychological support to children affected by war. Every contribution, big or small, plays a significant role in helping these children rebuild their lives. Together, we can create a world where every child has the opportunity to live without fear and violence.</p>
+
+        <!-- Donation Form -->
+        <form id="donationForm" action="javascript:void(0);" method="POST">
+            <label for="amount">Donation Amount ($):</label>
+            <input type="number" id="amount" name="amount" min="10" placeholder="Enter amount" required>
+            <button type="submit" class="btn">Donate Now</button>
+        </form>
+
+        <!-- Confirmation Message -->
+        <div id="confirmationMessage" style="display:none; margin-top:20px;">
+            <p>Thank you for your generous donation! Your contribution is making a difference in the lives of children affected by war.</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 War Relief for Children NGO. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="/script.js"></script> <!-- Link to your external JavaScript file -->
+</body>
+</html>
